@@ -15,6 +15,7 @@ https://y060.github.io/gjzzh_051129/
 * 張哲瀚
 * 俊哲日曆
 * 溫周
+  https://y060.github.io/gjzzh_051129/WenZhou
 * ？演唱會片段（反正酷不願意給了嘛）
 
 <br>
@@ -40,5 +41,13 @@ https://y060.github.io/gjzzh_051129/
 使用bootstrap內標籤？
 1. 山河令介紹 + YT播放清單
 2. 溫周介紹
-3. 
+3. 每集小簡介（用bootstrap做時間線...嗎？）
+
+<br>
+
+## Logo
+![image](https://github.com/y060/gjzzh_051129/blob/main/JunZhe_Logo2.png)
+
+<br>
+
 
