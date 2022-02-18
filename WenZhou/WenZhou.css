@@ -1,0 +1,32 @@
+.Container{
+    position: relative;
+    top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.character{
+    width: 70%;
+    margin-top: 50px;
+}
+.title{
+    width: 100%;
+    font-size: 18px;
+}
+.character-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.character-info img{
+    width: 20%;
+    margin: 0px 50px 0px 0px;
+}
+.character-info p{
+    width: 75%;
+}
