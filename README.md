@@ -11,9 +11,10 @@ https://y060.github.io/gjzzh_051129/
 ## 有哪些頁面？
 * Index
   https://y060.github.io/gjzzh_051129/
-* 俊哲日曆
 * 龔俊
 * 張哲瀚
+* 俊哲日曆
+* 溫周
 * ？演唱會片段（反正酷不願意給了嘛）
 
 <br>
@@ -27,7 +28,17 @@ https://y060.github.io/gjzzh_051129/
 ## navbar
 * 使用bootstrap幫助撰寫
 
-## 底
-* 左邊放Logo
-* 加上那個gmail
+## Index
+
+## 龔俊
+
+## 張哲瀚
+
+## 俊哲日曆
+
+## 溫周
+使用bootstrap內標籤？
+1. 山河令介紹 + YT播放清單
+2. 溫周介紹
+3. 
 
