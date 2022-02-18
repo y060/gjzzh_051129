@@ -10,6 +10,7 @@ https://y060.github.io/gjzzh_051129/
 
 ## 有哪些頁面？
 * Index
+  https://y060.github.io/gjzzh_051129/
 * 俊哲日曆
 * 龔俊
 * 張哲瀚
@@ -25,4 +26,8 @@ https://y060.github.io/gjzzh_051129/
 
 ## navbar
 * 使用bootstrap幫助撰寫
+
+## 底
+* 左邊放Logo
+* 加上那個gmail
 
