@@ -1,0 +1,29 @@
+#navbar{
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-center{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+} 
+.navbar-collapse-center{
+    text-align: center;
+}
