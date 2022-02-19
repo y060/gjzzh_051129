@@ -13,13 +13,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script>
+        function Location(){
+            var tabs_top = window.innerWidth * (1215/2160);
+            var headimg_top = window.innerHeight - tabs_top;
+            if( headimg_top<=0 ){
+                document.documentElement.style.setProperty('--HeadImgTop', headimg_top+'px');
+            }
+            document.documentElement.style.setProperty('--TabsTop', tabs_top+'px');
+        }
+        Location();
+        window.onresize = function(){Location();}
+    </script>
 
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://y060.github.io/gjzzh_051129/">浪浪釘</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="ToggleClick()">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -28,7 +40,7 @@
                     <li class="nav-item"><a class="nav-link" href="#">龔俊</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">張哲瀚</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://y060.github.io/gjzzh_051129/JZCalendar">俊哲日曆</a></li>
-                    <li class="nav-item"><a class="nav-link" href="WenZhou/WOH.html">愛情的開始</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://y060.github.io/gjzzh_051129/WenZhou/WOH">愛情的開始</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">世紀婚禮</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,6 +57,16 @@
             </div>
         </div>
     </nav>
+
+
+    <!--圖片-->
+    <div class="head" id="head">
+        <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/WOH_ep12_%E6%9B%AC%E5%A4%AA%E9%99%BD%E6%88%AA%E4%BF%AE.jpeg">
+        <div>
+            <p>最好的愛是什麼樣的？</p>
+            <p>未曾改變且堅定</p>
+        </div>
+    </div>
 
 
 
