@@ -1,7 +1,28 @@
+.Container{
+    position: relative;
+    top: 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+/* 山河令介紹 */
+.Container p{
+    width: 60%;
+    padding-bottom: 70px;
+}
+.Container b{
+    font-size: 20px;
+}
+
 /* 山河令影片 */
 .frame{
-    position: relative;
-    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;

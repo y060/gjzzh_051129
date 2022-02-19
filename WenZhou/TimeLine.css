@@ -1,0 +1,12 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+.episode{
+    width: 70%;
+}

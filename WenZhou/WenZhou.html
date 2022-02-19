@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-
 <head>
     <meta charset="UTF-8">
-
+    
     <title>山河令．溫周</title>
-    <link rel="icon" href="https://raw.githubusercontent.com/y060/gjzzh_051129/main/JunZhe_Logo1.png"
-        type="image/icon type">
+    <link rel="icon" href="https://raw.githubusercontent.com/y060/gjzzh_051129/main/JunZhe_Logo1.png" type="image/icon type">
 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="WenZhou.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
-</head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
+</head>
 <body>
+    <script>
+        function Location(){
+            var tabs_top = window.innerWidth * (1215/2160);
+            var headimg_top = window.innerHeight - tabs_top;
+            if( headimg_top<=0 ){
+                document.documentElement.style.setProperty('--HeadImgTop', headimg_top+'px');
+            }
+            document.documentElement.style.setProperty('--TabsTop', tabs_top+'px');
+        }
+        Location();
+        window.onresize = function(){Location();}
+    </script>
 
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://y060.github.io/gjzzh_051129/">浪浪釘</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="ToggleClick()">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#">龔俊</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">張哲瀚</a></li>
-                    <li class="nav-item"><a class="nav-link"
-                            href="https://y060.github.io/gjzzh_051129/JZCalendar">俊哲日曆</a></li>
-                    <li class="nav-item"><a class="nav-link active"
-                            href="https://y060.github.io/gjzzh_051129/WenZhou/WOH">溫周</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://y060.github.io/gjzzh_051129/JZCalendar">俊哲日曆</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://y060.github.io/gjzzh_051129/WenZhou/WOH">愛情的開始</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="true">世紀婚禮</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">世紀婚禮</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item dropdown-title">5月3日</a></li>
                             <li><a class="dropdown-item" href="#">主舞臺視角</a></li>
                             <li><a class="dropdown-item" href="#">主創觀影區</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
+                            <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item dropdown-title">5月4日</a></li>
                             <li><a class="dropdown-item" href="#">主舞臺視角</a></li>
                             <li><a class="dropdown-item" href="#">主創觀影區</a></li>
@@ -63,9 +62,8 @@
 
 
     <!--圖片-->
-    <div class="head">
-        <img
-            src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/WOH_ep12_%E6%9B%AC%E5%A4%AA%E9%99%BD%E6%88%AA%E4%BF%AE.jpeg">
+    <div class="head" id="head">
+        <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/WOH_ep12_%E6%9B%AC%E5%A4%AA%E9%99%BD%E6%88%AA%E4%BF%AE.jpeg">
         <div>
             <p>「我在人心鬼域裡殺了個七進七出，要是連好人和壞人都分不清楚，那豈不是白活了？」</p>
             <p>「阿絮、阿絮～阿絮。</br>
@@ -78,9 +76,9 @@
 
     <!--頁籤-->
     <div class="Tabs" id="Tabs">
-        <a class="tabs" href="https://y060.github.io/gjzzh_051129/WenZhou/WOH #Tabs">山河令</a>
+        <a class="tabs" href="WOH.html #Tabs">山河令</a>
         <a class="now-tabs">溫周</a>
-        <a class="tabs" href="">各集簡介</a>
+        <a class="tabs" href="TimeLine.html #Tabs">分集簡介</a>
     </div>
     
 
@@ -133,4 +131,7 @@
         </div>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
