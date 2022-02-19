@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+/* navbar */
+.navbar{
+    position: fixed;
+    z-index: 999;
+}
+.navbar a{
+    text-decoration: none;
+}
+.container-fluid{
+    z-index: 999;
+}
+.navbar-toggler:focus{
+    outline: 0;
+}
+
+
+/* 圖片 */
+.head{
+    position: fixed;
+    width: 100%;
+    top: var(--HeadImgTop, 0px);
+    z-index: -100;
+}
+
+.head div{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+
+    z-index: 0;
+}
+.head p{
+    font: 20px 'cwTeXFangSong', sans-serif;
+    color: black;
+}
+
+@keyframes fadein{
+    0% { opacity: 0; }
+    100% { opacity: 0.85; }
+}
+.head img{
+    width: 100%;
+    opacity: 0.85;
+    z-index: 0;
+    animation: fadein 1.25s ease-in;
+}
+
+
+/* 內容的部分 */
+.Container{
+    margin-top: var(--TabsTop);
+}
+.event{
+    width: 100%;
+    height: 300px;
+}
