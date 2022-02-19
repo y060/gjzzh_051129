@@ -3,7 +3,6 @@
 
 /* navbar */
 .navbar{
-    position: fixed;
     z-index: 999;
 }
 .navbar a{
@@ -25,16 +24,31 @@
     z-index: -100;
 }
 
-.head div{
+.title{
     position: absolute;
-    right: 10px;
-    bottom: 20px;
+    left: 70px;
+    top: calc( var(--TabsTop) * 0.5);
 
-    z-index: 0;
+    z-index: 0; 
 }
-.head p{
+.title h1{
+    margin-bottom: 30px;
+    padding: 0px 10px 3px 10px;
+    border-bottom: 3px rgba(255, 255, 255, 0.25) solid;
+
+    font-size: 100px;
+    font-weight: bold;
+
+    background: linear-gradient(#4947ce, #b31919);
+    background: -webkit-linear-gradient(#4947ce, #b31919);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.title p{
+    padding: 0px 10px 0px 20px;
     font: 20px 'cwTeXFangSong', sans-serif;
-    color: black;
+    color: white;
 }
 
 @keyframes fadein{
@@ -51,20 +65,26 @@
 
 /* 內容的部分 */
 .Container{
+    width: 100%;
     margin-top: var(--TabsTop);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .event{
     width: 70%;
     height: 400px;
     margin: 20px 0px 20px 0px;
+    min-width: 600px;
 
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.35);
 }
 .event p{
     font-family: 'cwTeXFangSong', sans-serif;
@@ -78,9 +98,49 @@
 }
 .event_1, .event_3, .event_5, .event_7, .event_9{
     position: relative;
-    left: 100px;
+    right: 100px;
+    flex-direction: row;
+}
+.event_1 img, .event_3 img, .event_5 img, .event_7 img, .event_9 img{
+    position: relative;
+    padding-left: 60px;
 }
 .event_2, .event_4, .event_6, .event_8{
     position: relative;
-    right: 100px;
+    left: 100px;
+    flex-direction: row-reverse;
+}
+.event_2 img, .event_4 img, .event_6 img, .event_8 img{
+    position: relative;
+    padding-right: 60px;
+}
+
+
+
+@media screen and (max-width: 1245px) {
+    .event, .event div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .event{
+        height: 500px;
+    }
+    .event img{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 961px) {
+    .Container{
+        background-color: white;
+    }
+    .event{
+        background-color: rgba(0, 0, 0, 0.78);
+    }
+    .event div{
+        color: white;
+    }
 }
