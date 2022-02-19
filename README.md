@@ -15,7 +15,6 @@ https://y060.github.io/gjzzh_051129/
 * 張哲瀚
 * 俊哲日曆
 * 溫周
-  https://y060.github.io/gjzzh_051129/WenZhou
 * ？演唱會片段（反正酷不願意給了嘛）
 
 <br>
