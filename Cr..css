@@ -1,0 +1,146 @@
+
+/* navbar */
+.navbar{
+    z-index: 999;
+}
+.navbar a{
+    text-decoration: none;
+}
+.container-fluid{
+    z-index: 999;
+}
+.navbar-toggler:focus{
+    outline: 0;
+}
+
+
+/* 內容：標題 & 索引標籤 */
+.title{
+    margin-top: 120px;
+    margin-bottom: -25px;
+    padding-left: 5%;
+}
+.title h1{
+    font-weight: bold;
+}
+
+.content{
+    position: fixed;
+    width: 15%;
+    right: 0px;
+    z-index: 99;
+}
+.content a{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+.content a:hover{
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+
+
+/* 內容 */
+.Container{
+    position: relative;
+    width: 85%;
+    left: 6%;
+    margin-bottom: 40px;
+    padding-top: 70px;
+}
+.Container h2{
+    width: 87%;
+    padding: 0px 0px 7px 3px;
+    font-weight: bold;
+    border-bottom: 2px rgb(219, 219, 219) solid;
+}
+.Photos{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.photo{
+    width: 350px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 1px 3px rgb(119, 119, 119);
+}
+.photo img{
+    width: 100%;
+}
+.photo a{
+    padding: 10px;
+    color: black;
+    word-break: break-all;
+}
+.photo a::before{
+    content: "Cr. ";
+}
+
+
+/* footer */
+.Footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+
+    background-color: rgb(36, 36, 36);
+}
+
+.footer{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+.Logo img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer-Info{
+    width: 250px;
+    padding: 20px;
+}
+.footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-information img{
+    width: 10%;
+}
+.footer-information p{
+    margin: 10px;
+}
+.footer-information a, 
+.footer-information a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-footer{
+    width: 100%;
+    bottom: 3px;
+    color: rgb(215, 215, 215);
+    text-align: center;
+}
+.footer-footer a, 
+.footer-footer a:hover{
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+}
