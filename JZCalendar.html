@@ -2,52 +2,160 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>all for 俊哲</title>
-    <link rel="icon" href="https://raw.githubusercontent.com/y060/gjzzh_051129/main/JunZhe_Logo1.png" type="image/icon type">
+    <title>【俊哲日曆】all for 俊哲</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/y060/gjzzh_051129/main/JunZhe_Logo.png" type="image/icon type">
 
-    <link rel="stylesheet" href="JZCalendar.css">
+    <link rel="stylesheet" href="Cr.css">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
+    <script>
+        AOS.init();
+    </script>
 
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://y060.github.io/gjzzh_051129/">浪浪釘</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#">龔俊</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">張哲瀚</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="https://y060.github.io/gjzzh_051129/JZCalendar">俊哲日曆</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://y060.github.io/gjzzh_051129/WenZhou/WOH">溫周</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://y060.github.io/gjzzh_051129/JZCalendar">俊哲日曆</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://y060.github.io/gjzzh_051129/WenZhou/WOH">愛情的開始</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">世紀婚禮</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">世紀婚禮</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item">5月3日</a></li>
+                            <li><a class="dropdown-item dropdown-title">5月3日</a></li>
                             <li><a class="dropdown-item" href="#">主舞臺視角</a></li>
                             <li><a class="dropdown-item" href="#">主創觀影區</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item">5月4日</a></li>
+                            <li><a class="dropdown-item dropdown-title">5月4日</a></li>
                             <li><a class="dropdown-item" href="#">主舞臺視角</a></li>
                             <li><a class="dropdown-item" href="#">主創觀影區</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item"><a class="nav-link active" href="https://y060.github.io/gjzzh_051129/Cr">圖源</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
 
-    <!--內容-->
-    <div class="calendar" id="calendar"></div>
+    <!--標題-->
+    <div class="title">
+        <h1>圖源</h1>
+        <p>謝謝各位老師、各位站姐！</p>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--索引-->
+    <div class="content">
+        <a href="#Home">首頁</a></br>
+        <a href="#GJ">龔俊</a></br>
+        <a href="#ZZH">張哲瀚</a></br>
+        <a href="#Calendar">俊哲日曆</a></br>
+        <a href="#SHL">愛情的開始</a></br>
+        <a href="#Wedding">世紀婚禮</a>
+    </div>
+
+    <!--內容-->
+    <div class="Container" id="Home">
+        <h2>首頁</h2>
+        <div class="Photos">
+            <div class="photo" data-aos="fade-up" data-aos-duration="1200">
+                <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%A6%96%E9%A0%81.jpg">
+                <a>@ItsRAINING_1129x0511</a>
+            </div>
+            <div class="photo" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E5%9C%8D%E8%AE%80%E6%9C%83.jpeg">
+                <a>@居居女孩好巧吖</a>
+            </div>
+            <div class="photo" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%96%8B%E6%A9%9F1_.jpg">
+                <a>@并蒂·1129x0511</a>
+            </div>
+            <div class="photo" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="900">
+                <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E6%AE%BA%E9%9D%92_.jpeg">
+                <a>@大象杆菌</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Container" id="GJ">
+        <h2>龔俊</h2>
+        <div class="Photos">
+        </div>
+    </div>
+
+    <div class="Container" id="ZZH">
+        <h2>張哲瀚</h2>
+        <div class="Photos">
+        </div>
+    </div>
+
+    <div class="Container" id="Calendar">
+        <h2>俊哲日曆</h2>
+        <div class="Photos">
+        </div>
+    </div>
+
+    <div class="Container" id="SHL">
+        <h2>愛情的開始</h2>
+        <div class="Photos">
+            <div class="photo" data-aos="fade-up" data-aos-duration="1200">
+                <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/WOH_ep12_%E6%9B%AC%E5%A4%AA%E9%99%BD%E6%88%AA%E4%BF%AE.jpeg">
+                <a>@BEAULILYA</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Container" id="Wedding">
+        <h2>世紀婚禮</h2>
+        <div class="Photos">
+        </div>
+    </div>
+
+
+    <!--置底-->
+    <footer class="Footer">
+        <div class="footer">
+            <div class="Logo">
+                <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/JunZhe_Logo.png">
+            </div>
+            <div class="footer-Info">
+                <div class="footer-information">
+                    <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/icon/weibo.png">
+                    <p><a href="https://weibo.com/u/2172061270" target="_blank">@龚俊Simon</a></br>
+                    <a href="">@张哲瀚疯子</a></p>
+                </div>
+                <div class="footer-information">
+                    <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/icon/instagram.png">
+                    <p><a href="https://www.instagram.com/gongjunhahaha/" target="_blank">@gongjunhahaha</a></br>
+                    <a href="https://instagram.com/zhangzhehan_super3/" target="_blank">@zhangzhehan_super3</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <p>
+                <a href="https://y060.github.io/gjzzh_051129/">首頁</a>｜
+                <a href="https://y060.github.io/gjzzh_051129/Cr">圖源</a>｜
+                <a>聯繫網頁作者</a>
+            </p>
+        </div>
+    </footer>
+
+
+
 </body>
