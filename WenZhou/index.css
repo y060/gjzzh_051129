@@ -105,29 +105,13 @@
 }
 
 .Logo{
-    width: 13%;
+    width: 10%;
     margin: 40px 10% 0 0;
 }
 .Logo img{
     width: 100%;
+    border-radius: 50%;
+    background-color: white;
 }
 
-.footer-information{
-    width: 13%;
-    margin: 50px -10px 0px -10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-.footer-information img{
-    width: 15%;
-    padding-bottom: 5px;
-}
-.footer-information a{
-    color: white;
-    text-decoration: none;
-}
-.footer-information a:hover{
-    color: white;
-    text-decoration: none;
 }
