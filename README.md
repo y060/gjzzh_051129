@@ -16,12 +16,13 @@ https://y060.github.io/gjzzh_051129/
 * 俊哲日曆
 * 溫周
 * ？演唱會片段（反正酷不願意給了嘛）
+* 圖源
 
 <br>
 
 ## 怎麼做？
 * Github Page
-* 自己寫html、css、js，盡量不要用到theme
+* 自己寫html、css、js，盡量不要用到theme、模板
 
 <br>
 
@@ -29,7 +30,10 @@ https://y060.github.io/gjzzh_051129/
 * 使用bootstrap幫助撰寫
 
 ## Index（首頁）
-向下會「滑出」俊哲相戀timeline
+* 向下會「滑出」俊哲相戀timeline
+* 使用AOS套件
+</br>
+
 ※ △：代表缺圖片
 1. 2020.05.26 初相見 & 2020.05.28 圍讀會
 2. 2020.06.03 《山河令》開機
