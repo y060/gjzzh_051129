@@ -18,12 +18,8 @@
 <body>
     <script>
         function Location(){
-            var tabs_top = window.innerWidth * (1215/2160);
-            var headimg_top = window.innerHeight - tabs_top;
-            if( headimg_top<=0 ){
-                document.documentElement.style.setProperty('--HeadImgTop', headimg_top+'px');
-            }
-            document.documentElement.style.setProperty('--TabsTop', tabs_top+'px');
+            var container_top = window.innerWidth;
+            document.documentElement.style.setProperty('--ContainerTop', container_top+'px');
         }
 
         Location();
@@ -59,6 +55,7 @@
                             <li><a class="dropdown-item" href="#">主創觀影區</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item"><a class="nav-link" href="#">圖源</a></li>
                 </ul>
             </div>
         </div>
@@ -66,10 +63,7 @@
 
 
     <!--圖片-->
-    <div class="head" id="head">
-        <img src="https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%A6%96%E9%A0%81.jpg">
-    </div>
-    <div class="title">
+    <div class="title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
         <h1>浪浪釘 & 俊哲</h1>
         <p>最好的愛是什麼樣的</br>
            未曾改變而堅定</p>

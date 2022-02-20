@@ -1,6 +1,20 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
 
+@keyframes fadein{
+    0% { opacity: 0; }
+    100% { opacity: 0.85; }
+}
+body{
+    background-image: url(https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%A6%96%E9%A0%81.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 75% 50%;
+    background-size: cover;
+
+    animation: fadein 1.25s ease-in;
+}
+
 /* navbar */
 .navbar{
     z-index: 999;
@@ -17,17 +31,10 @@
 
 
 /* 圖片 */
-.head{
-    position: fixed;
-    width: 100%;
-    top: var(--HeadImgTop, 0px);
-    z-index: -100;
-}
-
 .title{
     position: absolute;
     left: 70px;
-    top: calc( var(--TabsTop) * 0.5);
+    top: calc( var(--ContainerTop) * 0.27);
 
     z-index: 0; 
 }
@@ -51,22 +58,10 @@
     color: white;
 }
 
-@keyframes fadein{
-    0% { opacity: 0; }
-    100% { opacity: 0.85; }
-}
-.head img{
-    width: 100%;
-    opacity: 0.85;
-    z-index: 0;
-    animation: fadein 1.25s ease-in;
-}
-
-
 /* 內容的部分 */
 .Container{
     width: 100%;
-    margin-top: var(--TabsTop);
+    margin-top: calc( var(--ContainerTop) * 0.6);
 
     display: flex;
     flex-direction: column;
