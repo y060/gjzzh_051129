@@ -56,7 +56,7 @@ https://y060.github.io/gjzzh_051129/
 <br>
 
 ## Logo
-![image](https://github.com/y060/gjzzh_051129/blob/main/JunZhe_Logo2.png)
+![image](https://github.com/y060/gjzzh_051129/blob/main/JunZhe_Logo.png)
 
 <br>
 
