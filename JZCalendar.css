@@ -13,7 +13,6 @@
 }
 
 
-
 /* footer */
 .Footer{
     position: relative;
@@ -71,6 +70,13 @@
     bottom: 3px;
     color: rgb(215, 215, 215);
     text-align: center;
+}
+.footer-footer p{
+    margin: 0px;
+}
+.last-revise-time{
+    padding: 1px;
+    color: rgb(129, 129, 129);
 }
 .footer-footer a, 
 .footer-footer a:hover{

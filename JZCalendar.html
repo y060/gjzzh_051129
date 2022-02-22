@@ -82,8 +82,14 @@
                 <a href="https://y060.github.io/gjzzh_051129/Cr">圖源</a>｜
                 <a>聯繫網頁作者</a>
             </p>
+            <p class="last-revise-time"></p>
         </div>
     </footer>
+
+    <script>
+        var LastReviseTime_class = document.querySelector('.last-revise-time');
+        LastReviseTime_class.innerHTML = '上次修改時間：' + document.lastModified + '';
+    </script>
 
 
 
