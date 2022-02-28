@@ -20,17 +20,18 @@
         var HomeHeight = document.getElementById("Home"), GJHeight = document.getElementById("GJ"), 
             ZZHHeight = document.getElementById("ZZH"), CalendarHeight = document.getElementById("Calendar"), 
             SHLHeight = document.getElementById("SHL"), WeddingHeight = document.getElementById("Wedding");
-        var Top = document.getElementById("ALLContainer").scrollTop;
+        var Top = document.getElementById("ALLContainer");
 
-        let Containers = [ HomeHeight, GJHeight, ZZHHeight, CalendarHeight, SHLHeight, WeddingHeight];
-        let Tabs = ["content-Home", "content-GJ", "content-ZZH", "content-Calendar", "content-SHL", "content-Wedding"];
-        var sum = 0;
+        let Containers = [ HomeHeight, GJHeight, ZZHHeight, CalendarHeight, SHLHeight, WeddingHeight ];
+        let Tabs = [ "content-Home", "content-GJ", "content-ZZH", "content-Calendar", "content-SHL", "content-Wedding" ];
         window.onresize = function(){
+            var sum = 0;
             for( var i=0; i<Containers.length; i++){
                 sum += Containers[i].scrollHeight;
-                if( Top < sum ){
+                if( Top.scrollTop < sum ){
                     document.getElementById(Tabs[i]).style.color = 'black';
-                }
+                    break;
+                }  
             }
         }
 

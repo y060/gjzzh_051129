@@ -19,6 +19,7 @@ body{
 /* navbar */
 .navbar{
     z-index: 999;
+    user-select: none;
 }
 .navbar a{
     text-decoration: none;
@@ -91,7 +92,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.45);
 }
 .event p{
     font-family: 'cwTeXFangSong', sans-serif;

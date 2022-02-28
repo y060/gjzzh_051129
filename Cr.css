@@ -2,6 +2,7 @@
 /* navbar */
 .navbar{
     z-index: 999;
+    user-select: none;
 }
 .navbar a{
     text-decoration: none;
@@ -12,6 +13,7 @@
 .navbar-toggler:focus{
     outline: 0;
 }
+
 
 
 /* 內容：標題 & 索引標籤 */
