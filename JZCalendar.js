@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log(Ev.event.extendedProps.bg_img);
             }
             else{
-                document.getElementById("body").style.backgroundImage = "url(/pic/homepage.jpg)";
+                document.getElementById("body").style.backgroundImage = "url(./pic/homepage.jpg)";
             }
         }
 
