@@ -271,6 +271,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("event-title").innerHTML = Ev.event.title;
             console.log(Ev.event.title);
 
+            // 活動詳細內容
             if( Ev.event.extendedProps.description != null ){
                 document.getElementById("event-info").innerHTML = Ev.event.extendedProps.description;
                 console.log(Ev.event.extendedProps.description);
@@ -278,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
             else{
                 document.getElementById("event-info").innerHTML = "";
             }
-
+            // 活動位置
             if( Ev.event.extendedProps.location != null ){
                 document.getElementById("event-loca").innerHTML = Ev.event.extendedProps.location;
                 console.log(Ev.event.extendedProps.location);
@@ -286,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function() {
             else{
                 document.getElementById("event-loca").innerHTML = "";
             }
-
+            // 活動圖片（設為背景）
             if( Ev.event.extendedProps.bg_img != null ){
                 document.getElementById("body").style.backgroundImage = "url(" + Ev.event.extendedProps.bg_img + ")";
                 console.log(Ev.event.extendedProps.bg_img);
