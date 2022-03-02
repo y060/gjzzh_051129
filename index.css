@@ -6,7 +6,7 @@
     100% { opacity: 0.85; }
 }
 body{
-    background-image: url("/pic/homepage.jpg");
+    background-image: url("../gjzzh_051129/pic/homepage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 75% 50%;
