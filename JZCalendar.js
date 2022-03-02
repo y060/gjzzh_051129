@@ -52,9 +52,9 @@ var THEIR_EventList = [
         start: "2021-02-20",
         location: "📍 北京",
         description:
-        "．傳說中關了一整天錄了不知道多少寸頭物料那天。</br>\
-        ．龔老師走機場走成菜市場名場面，買了燈影牛肉沒到貨又在機場買了給「同事」帶去。</br>\
-        ．龔老師從仙鶴降級為鴕鳥。</br>\
+        "．傳說中關了一整天錄了不知道多少寸頭物料那天。<br>\
+        ．龔老師走機場走成菜市場名場面，買了燈影牛肉沒到貨又在機場買了給「同事」帶去。<br>\
+        ．龔老師從仙鶴降級為鴕鳥。<br>\
         ．張老師被吐槽花蝴蝶。"
     },
     {
@@ -65,8 +65,8 @@ var THEIR_EventList = [
         start: "2021-03-05",
         location: "📍 北京",
         description: 
-        "．劇中廣告插播。</br>\
-        ．《主創很桃氣》</br>\
+        "．劇中廣告插播。<br>\
+        ．《主創很桃氣》<br>\
         「支支吾吾咿咿呀呀」"
     },
     {
@@ -77,13 +77,13 @@ var THEIR_EventList = [
         start: "2021-03-15",
         location: "📍 長沙",
         description: 
-        "超A＆超A採訪</br>\
-        ．“歌舞完蛋”正式出（社）道（死）！</br>\
-        ．蘋果超綱啦</br>\
-        </br>\
-        娛情lab</br>\
-        ．「做過了大哥」</br>\
-        ．「他養貓，喜歡貓，微信頭像是貓。」</br>\
+        "超A＆超A採訪<br>\
+        ．“歌舞完蛋”正式出（社）道（死）！<br>\
+        ．蘋果超綱啦<br>\
+        <br>\
+        娛情lab<br>\
+        ．「做過了大哥」<br>\
+        ．「他養貓，喜歡貓，微信頭像是貓。」<br>\
         「我也養法鬥～」（其實並沒有貓）"
     },
     {
@@ -98,7 +98,7 @@ var THEIR_EventList = [
         start: "2021-03-25",
         location: "📍 長沙",
         description: 
-        "．「他不打呼～」（謝謝小方 您是菩薩）</br>\
+        "．「他不打呼～」（謝謝小方 您是菩薩）<br>\
         ．桌子下的手😗"
     },
     {
@@ -124,11 +124,11 @@ var GJ_EventList = [
         title: "[微博] 致我溫",
         start: "2020-09-23",
         description: 
-        "致我溫：</br>\
-        與君初相識 猶如故人歸</br>\
-        同舟逆旅 並轡追光</br>\
-        待得山花燦漫時 天涯再會</br>\
-        </br>\
+        "致我溫：<br>\
+        與君初相識 猶如故人歸<br>\
+        同舟逆旅 並轡追光<br>\
+        待得山花燦漫時 天涯再會<br>\
+        <br>\
         發殺青照 + 合照"
     },
     {
@@ -204,8 +204,8 @@ var ZZH_EventList = [
         title: "[微博] 限定花期🌸",
         start: "2021-03-01",
         description: 
-        "四季花常在，九州事盡知。</br>\
-        </br>\
+        "四季花常在，九州事盡知。<br>\
+        <br>\
         長髮自拍！"
     },
     {
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log(Ev.event.extendedProps.bg_img);
             }
             else{
-                document.getElementById("body").style.backgroundImage = "url(https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%A6%96%E9%A0%81.jpg)";
+                document.getElementById("body").style.backgroundImage = "url(/pic/homepage.jpg)";
             }
         }
 

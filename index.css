@@ -6,7 +6,7 @@
     100% { opacity: 0.85; }
 }
 body{
-    background-image: url(https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%A6%96%E9%A0%81.jpg);
+    background-image: url(/pic/homepage.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 75% 50%;
