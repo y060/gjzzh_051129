@@ -11,10 +11,11 @@ var THEIR_EventList = [
     {
         title: "劇本圍讀 + 加微信紀念",
         start: "2020-05-28",
-        bg_img: "https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E5%9C%8D%E8%AE%80%E6%9C%83.jpeg" },
+        bg_img: "/pic/2020-05-28.jpeg" },
     {
         title: "《天涯客》開機", 
-        start: "2020-06-03" },
+        start: "2020-06-03",
+        bg_img: "/pic/2020-06-03.jpeg" },
     {
         title: "微博互關", 
         start: "2020-06-03" },
@@ -22,12 +23,12 @@ var THEIR_EventList = [
         title: "首次微博互動", 
         start: "2020-06-27", 
         description: 
-        "2020.06.27 01:02</br>\
-        周循天涯溫舒子，客行五湖覓故知。@張哲瀚瘋子</br>\
-        2020.06.27 9點左右留言</br>\
-        與子同為天涯客，尋尋覓覓遇知音。（ps：阿絮半夜少衝浪，早睡早起身體好[猫头]）</br>\
-        </br>\
-        前一天26日拍的應該是龍淵閣逃命，絮：「你這叫情場得意，戰場失意」，18集雙雙跳向崖對面山洞那段。</br>\
+        "2020.06.27 01:02<br>\
+        周循天涯溫舒子，客行五湖覓故知。@張哲瀚瘋子<br>\
+        2020.06.27 9點左右留言<br>\
+        與子同為天涯客，尋尋覓覓遇知音。（ps：阿絮半夜少衝浪，早睡早起身體好[猫头]）<br>\
+        <br>\
+        前一天26日拍的應該是龍淵閣逃命，絮：「你這叫情場得意，戰場失意」，18集雙雙跳向崖對面山洞那段。<br>\
         當天27到28凌晨是動情版" 
      },
     {
@@ -44,7 +45,65 @@ var THEIR_EventList = [
         start: "2020-09-23" },
     {
         title: "《時尚芭莎》",
-        start: "2020-09-24" }
+        start: "2020-09-24",
+        bg_img: "/pic/2020-09-24.jpg" },
+    {
+        title: "《山河令》開播物料錄製",
+        start: "2021-02-20",
+        location: "📍 北京",
+        description:
+        "．傳說中關了一整天錄了不知道多少寸頭物料那天。</br>\
+        ．龔老師走機場走成菜市場名場面，買了燈影牛肉沒到貨又在機場買了給「同事」帶去。</br>\
+        ．龔老師從仙鶴降級為鴕鳥。</br>\
+        ．張老師被吐槽花蝴蝶。"
+    },
+    {
+        title: "《山河令》開播",
+        start: "2021-02-22" },
+    {
+        title: "《山河令》戲服物料錄製",
+        start: "2021-03-05",
+        location: "📍 北京",
+        description: 
+        "．劇中廣告插播。</br>\
+        ．《主創很桃氣》</br>\
+        「支支吾吾咿咿呀呀」"
+    },
+    {
+        title: "抖音互關",
+        start: "2021-03-14" },
+    {
+        title: "超A、群訪、娛情lab錄製",
+        start: "2021-03-15",
+        location: "📍 長沙",
+        description: 
+        "超A＆超A採訪</br>\
+        ．“歌舞完蛋”正式出（社）道（死）！</br>\
+        ．蘋果超綱啦</br>\
+        </br>\
+        娛情lab</br>\
+        ．「做過了大哥」</br>\
+        ．「他養貓，喜歡貓，微信頭像是貓。」</br>\
+        「我也養法鬥～」（其實並沒有貓）"
+    },
+    {
+        title: "《山河令》超點大結局",
+        start: "2021-03-23" },
+    {
+        title: "大群紅包報銷超點費用",
+        start: "2021-03-23",
+        description: "爆料者：韓英" },
+    {
+        title: "快本 直播+錄製",
+        start: "2021-03-25",
+        location: "📍 長沙",
+        description: 
+        "．「他不打呼～」（謝謝小方 您是菩薩）</br>\
+        ．桌子下的手😗"
+    },
+    {
+        title: "《山河令》會員大結局",
+        start: "2021-03-27" }
 ];
 
 var GJ_EventList = [
@@ -65,16 +124,39 @@ var GJ_EventList = [
         title: "[微博] 致我溫",
         start: "2020-09-23",
         description: 
-        "致我溫：\
-        與君初相識 猶如故人歸\
-        同舟逆旅 並轡追光\
-        待得山花燦漫時 天涯再會\
-        \
+        "致我溫：</br>\
+        與君初相識 猶如故人歸</br>\
+        同舟逆旅 並轡追光</br>\
+        待得山花燦漫時 天涯再會</br>\
+        </br>\
         發殺青照 + 合照"
     },
     {
         title: "首唱會送花「龔俊祝張老師首唱會順利」",
-        start: "2020-10-18" }
+        start: "2020-10-18" },
+    {
+        title: "生日 直播",
+        start: "2020-11-29",
+        description: "我好喜歡你蕪湖~愛你蕪湖~" },
+    {
+        title: "《你好，火焰藍》開機",
+        start: "2020-11-08",
+        location: "📍 南京" },
+    {
+        title: "《你好，火焰藍》殺青",
+        start: "2021-02-05",
+        location: "📍 南京" },
+    {
+        title: "[微博] 千萬粉絲福利 腹肌照",
+        start: "2021-03-11" },
+    {
+        title: "[微博] 龔's magazine",
+        start: "2021-03-19",
+        description: "編輯好多次的抓光圖" },
+    {
+        title: "[微博] 這波搶地主，沒錯吧[猫头]",
+        start: "2021-03-21",
+        description: "2021年8月19日，用這套圖當了頭像。" }
 ];
 
 var ZZH_EventList = [
@@ -101,7 +183,40 @@ var ZZH_EventList = [
         start: "2020-09-23" },
     {
         title: "首唱會",
-        start: "2020-10-18" }
+        start: "2020-10-18" },
+    {
+        title: "《復古神探》進組",
+        start: "2020-11-02",
+        location: "📍 重慶" },
+    {
+        title: "《復古神探》開機",
+        start: "2020-11-08",
+        location: "📍 重慶" },
+    {
+        title: "《復古神探》殺青",
+        start: "2021-02-03",
+        location: "📍 重慶" },
+    {
+        title: "《維和防暴隊》開機",
+        start: "2021-02-27",
+        location: "📍 北海" },
+    {
+        title: "[微博] 限定花期🌸",
+        start: "2021-03-01",
+        description: 
+        "四季花常在，九州事盡知。</br>\
+        </br>\
+        長髮自拍！"
+    },
+    {
+        title: "[微博] 江湖再見2.0",
+        start: "2021-03-23",
+        description: "半年可見剛好今天到期。" },
+    {
+        title: "雅頓直播",
+        start: "2021-03-26",
+        description: "「人一生只需要三次好運，一次是遇見你，一次是讓你愛上我，一次是永遠陪著你。」" },
+    
 ];
 
 var GZP_EventList = [
@@ -141,9 +256,6 @@ document.addEventListener('DOMContentLoaded', function() {
             today: "今天",
         },
 
-        // 月份&星期幾翻成中文
-        locale: "zh-tw",
-
         // 活動
         eventOrder : "displayOrder",
         eventSources: [ 
@@ -158,6 +270,7 @@ document.addEventListener('DOMContentLoaded', function() {
         eventClick: function(Ev){
             document.getElementById("event-title").innerHTML = Ev.event.title;
             console.log(Ev.event.title);
+
             if( Ev.event.extendedProps.description != null ){
                 document.getElementById("event-info").innerHTML = Ev.event.extendedProps.description;
                 console.log(Ev.event.extendedProps.description);
@@ -165,10 +278,22 @@ document.addEventListener('DOMContentLoaded', function() {
             else{
                 document.getElementById("event-info").innerHTML = "";
             }
-            if( Ev.event.bg_img != null ){
-                document.getElementById("body").style.backgroundImage = "url(" + Ev.event.bg_img + ")";
-                console.log(Ev.event.bg_img);
-            };
+
+            if( Ev.event.extendedProps.location != null ){
+                document.getElementById("event-loca").innerHTML = Ev.event.extendedProps.location;
+                console.log(Ev.event.extendedProps.location);
+            }
+            else{
+                document.getElementById("event-loca").innerHTML = "";
+            }
+
+            if( Ev.event.extendedProps.bg_img != null ){
+                document.getElementById("body").style.backgroundImage = "url(" + Ev.event.extendedProps.bg_img + ")";
+                console.log(Ev.event.extendedProps.bg_img);
+            }
+            else{
+                document.getElementById("body").style.backgroundImage = "url(https://raw.githubusercontent.com/y060/gjzzh_051129/main/pic/%E9%A6%96%E9%A0%81.jpg)";
+            }
         }
 
     });
