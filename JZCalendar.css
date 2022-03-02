@@ -56,7 +56,10 @@ body{
     background-color: white;
 }
 .fc-event-main{
-    cursor: pointer  !important;
+    cursor: pointer !important;
+}
+.fc .fc-daygrid-day.fc-day-today{
+    background-color: rgba(100, 165, 177, 0.35) !important;
 }
 
 .Events{

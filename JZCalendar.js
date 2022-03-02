@@ -15,6 +15,7 @@ var THEIR_EventList = [
     {
         title: "《天涯客》開機", 
         start: "2020-06-03",
+        location: "📍 橫店",
         bg_img: "./pic/2020-06-03.jpeg" },
     {
         title: "微博互關", 
@@ -29,14 +30,17 @@ var THEIR_EventList = [
         與子同為天涯客，尋尋覓覓遇知音。（ps：阿絮半夜少衝浪，早睡早起身體好[猫头]）<br>\
         <br>\
         前一天26日拍的應該是龍淵閣逃命，絮：「你這叫情場得意，戰場失意」，18集雙雙跳向崖對面山洞那段。<br>\
-        當天27到28凌晨是動情版" 
-     },
+        當天27到28凌晨是動情版" },
     {
         title: "定妝照拍攝",
         start: "2020-06-29" },
     {
         title: "LPL比賽打賭",
         start: "2020-07-11" },
+    {
+        title: "《天涯客》泳池見面會",
+        start: "2020-07-18",
+        location: "📍 橫店" },
     {
         title: "芭莎拍攝",
         start: "2020-08-18" },
@@ -48,6 +52,18 @@ var THEIR_EventList = [
         start: "2020-09-24",
         bg_img: "./pic/2020-09-24.jpg" },
     {
+        title: "南京一夜",
+        start: "2020-10-31",
+        end: "2020-11-02",
+        location: "📍 南京",
+        description:
+        "10.31<br>\
+        龔老師上海S10站臺，晚上回南京。<br>\
+        張老師德基李寧站臺，地點就在南京。<br>\
+        <br>\
+        11.01<br>\
+        張老師11點 南京✈北京。" },
+    {
         title: "《山河令》開播物料錄製",
         start: "2021-02-20",
         location: "📍 北京",
@@ -55,8 +71,7 @@ var THEIR_EventList = [
         "．傳說中關了一整天錄了不知道多少寸頭物料那天。<br>\
         ．龔老師走機場走成菜市場名場面，買了燈影牛肉沒到貨又在機場買了給「同事」帶去。<br>\
         ．龔老師從仙鶴降級為鴕鳥。<br>\
-        ．張老師被吐槽花蝴蝶。"
-    },
+        ．張老師被吐槽花蝴蝶。" },
     {
         title: "《山河令》開播",
         start: "2021-02-22" },
@@ -67,8 +82,7 @@ var THEIR_EventList = [
         description: 
         "．劇中廣告插播。<br>\
         ．《主創很桃氣》<br>\
-        「支支吾吾咿咿呀呀」"
-    },
+        「支支吾吾咿咿呀呀」" },
     {
         title: "抖音互關",
         start: "2021-03-14" },
@@ -84,8 +98,7 @@ var THEIR_EventList = [
         娛情lab<br>\
         ．「做過了大哥」<br>\
         ．「他養貓，喜歡貓，微信頭像是貓。」<br>\
-        「我也養法鬥～」（其實並沒有貓）"
-    },
+        「我也養法鬥～」（其實並沒有貓）" },
     {
         title: "《山河令》超點大結局",
         start: "2021-03-23" },
@@ -99,8 +112,7 @@ var THEIR_EventList = [
         location: "📍 長沙",
         description: 
         "．「他不打呼～」（謝謝小方 您是菩薩）<br>\
-        ．桌子下的手😗"
-    },
+        ．桌子下的手😗" },
     {
         title: "《山河令》會員大結局",
         start: "2021-03-27" }
@@ -111,29 +123,43 @@ var GJ_EventList = [
         title: "漁粉vlog", 
         start: "2020-07-06" },
     {
-        title: "[微博] 隨手拍",
+        title: "[微博] 聽 貓頭鷹在笑",
+        start: "2020-07-20",
+        location: "📍 橫店",
+        description: "「張老師溜上了我的房車～」" },
+    {
+        title: "[微x綠] 隨手拍",
         start: "2020-08-05",
-        info: "俊哲愛情山，八面山！" },
+        bg_img: "",
+        description: "俊哲愛情山，八面山！" },
     {
         title: "[微博] 不配過",
         start: "2020-08-25" },
     {
         title: "[微博] 偷得浮生半日閒",
-        start: "2020-09-13" },
+        start: "2020-09-13",
+        bg_img: "" },
     {
         title: "[微博] 致我溫",
         start: "2020-09-23",
+        bg_img: "",
         description: 
         "致我溫：<br>\
         與君初相識 猶如故人歸<br>\
         同舟逆旅 並轡追光<br>\
         待得山花燦漫時 天涯再會<br>\
         <br>\
-        發殺青照 + 合照"
-    },
+        發殺青照 + 合照" },
     {
         title: "首唱會送花「龔俊祝張老師首唱會順利」",
         start: "2020-10-18" },
+    {
+        title: "《從結婚開始戀愛》開播",
+        start: "2020-10-29" },
+    {
+        title: "《天涯客》歌曲錄製",
+        start: "2020-10-30",
+        location: "📍 南京" },
     {
         title: "生日 直播",
         start: "2020-11-29",
@@ -146,6 +172,12 @@ var GJ_EventList = [
         title: "《你好，火焰藍》殺青",
         start: "2021-02-05",
         location: "📍 南京" },
+    {
+        title: "[微博] 情人節快樂 嗎？",
+        start: "2021-02-14",
+        description: 
+        "1. 卡點13:14<br>\
+        2. 後接11個狗頭" },
     {
         title: "[微博] 千萬粉絲福利 腹肌照",
         start: "2021-03-11" },
@@ -170,6 +202,11 @@ var ZZH_EventList = [
         title: "工作室發雙人圖",
         start: "2020-07-19" },
     {
+        title: "[微博] 一場雨把我困在這裡",
+        start: "2020-07-20",
+        location: "📍 橫店",
+        description: "一場雨把「我們」困在這裡。" },
+    {
         title: "[微博] 我有鏡子了",
         start: "2020-08-02" },
     {
@@ -182,8 +219,27 @@ var ZZH_EventList = [
         title: "[微博] 「江湖再見」1.0",
         start: "2020-09-23" },
     {
+        title: "樂見大牌錄製",
+        start: "2020-10-10",
+        location: "📍 北京",
+        description: "首唱會邀請1st" },
+    {
+        title: "唱吧直播",
+        start: "2020-10-11",
+        location: "📍 北京",
+        description: "首唱會邀請2nd" },
+    {
+        title: "抖音開帳號",
+        start: "2020-10-15",
+        description: "關注1（不公開）" },
+    {
         title: "首唱會",
-        start: "2020-10-18" },
+        start: "2020-10-18",
+        description: "沒有嘉賓" },
+    {
+        title: "《天涯客》歌曲錄製",
+        start: "2020-11-01",
+        location: "📍 北京" },
     {
         title: "《復古神探》進組",
         start: "2020-11-02",
@@ -206,8 +262,7 @@ var ZZH_EventList = [
         description: 
         "四季花常在，九州事盡知。<br>\
         <br>\
-        長髮自拍！"
-    },
+        長髮自拍！" },
     {
         title: "[微博] 江湖再見2.0",
         start: "2021-03-23",
@@ -222,7 +277,11 @@ var ZZH_EventList = [
 var GZP_EventList = [
     {
         title: "「浪浪釘」定名", 
-        start: "2020-06-20" }
+        start: "2020-06-20" },
+    {
+        title: "小雨微博 “你們的靜香”",
+        start: "2020-10-16",
+        description: "公開不公開反覆橫跳" }
 ]
 
 
@@ -233,6 +292,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         firstDay: 0,    // 從星期天開始
         selectable: false,    // 活動不能被拖曳
+
+        locale: "zh-tw",
 
         // 回到2020-05-26的按鈕
         customButtons: {
