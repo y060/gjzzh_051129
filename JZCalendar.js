@@ -11,11 +11,11 @@ var THEIR_EventList = [
     {
         title: "劇本圍讀 + 加微信紀念",
         start: "2020-05-28",
-        bg_img: "/pic/2020-05-28.jpeg" },
+        bg_img: "./pic/2020-05-28.jpeg" },
     {
         title: "《天涯客》開機", 
         start: "2020-06-03",
-        bg_img: "/pic/2020-06-03.jpeg" },
+        bg_img: "./pic/2020-06-03.jpeg" },
     {
         title: "微博互關", 
         start: "2020-06-03" },
@@ -46,7 +46,7 @@ var THEIR_EventList = [
     {
         title: "《時尚芭莎》",
         start: "2020-09-24",
-        bg_img: "/pic/2020-09-24.jpg" },
+        bg_img: "./pic/2020-09-24.jpg" },
     {
         title: "《山河令》開播物料錄製",
         start: "2021-02-20",
