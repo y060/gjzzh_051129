@@ -4,28 +4,40 @@
 <br>
 
 ## 網址
-https://y060.github.io/gjzzh_051129/
+https://gjzzh051129.com
 
 <br>
 
 ## 有哪些頁面？
 * Index
-  https://y060.github.io/gjzzh_051129/
 * 龔俊
 * 張哲瀚
 * 俊哲日曆
-  https://y060.github.io/gjzzh_051129/JZCalendar
 * 愛情的開始
-  https://y060.github.io/gjzzh_051129/WenZhou/WOH
 * 世紀婚禮
 * 圖源
-  https://y060.github.io/gjzzh_051129/Cr
 
 <br>
 
 ## 怎麼做？
-* Github Page
+* ~~Github Page~~
 * 自己寫html、css、js，盡量不要用到theme、模板
+
+<br>
+
+## 建立網站
+
+### 域名
+gjzzh051129.com <br>
+$294(95+199)/年 + mail使用goDaddy購買。
+2022/03/02~2023/03/02
+
+
+### 主機
+最後決定直接使用Github Page連到domain進行，不買主機。<br>
+因為使用主機會有FTP、SSH等問題。
+
+
 
 <br>
 
