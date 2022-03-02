@@ -55,6 +55,9 @@ body{
     border-radius: 0px 30px 30px 0px;
     background-color: white;
 }
+.fc-event-main{
+    cursor: pointer  !important;
+}
 
 .Events{
     width: 30%;
