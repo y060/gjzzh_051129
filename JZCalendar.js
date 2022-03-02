@@ -130,7 +130,7 @@ var GJ_EventList = [
     {
         title: "[微x綠] 隨手拍",
         start: "2020-08-05",
-        bg_img: "",
+        bg_img: "./pic/2020-08-05.jpeg",
         description: "俊哲愛情山，八面山！" },
     {
         title: "[微博] 不配過",
@@ -138,11 +138,11 @@ var GJ_EventList = [
     {
         title: "[微博] 偷得浮生半日閒",
         start: "2020-09-13",
-        bg_img: "" },
+        bg_img: "./pic/2020-09-13.jpeg" },
     {
         title: "[微博] 致我溫",
         start: "2020-09-23",
-        bg_img: "",
+        bg_img: "./pic/2020-09-23.jpeg",
         description: 
         "致我溫：<br>\
         與君初相識 猶如故人歸<br>\
