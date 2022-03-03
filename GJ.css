@@ -1,0 +1,148 @@
+/* navbar */
+.navbar{
+    z-index: 999;
+    user-select: none;
+    background: rgba( 0, 0, 0, 0.5);
+}
+.navbar a{
+    text-decoration: none;
+}
+.container-fluid{
+    z-index: 999;
+}
+.navbar-toggler:focus{
+    outline: 0;
+}
+
+
+/* 演出作品 */
+.Dramas{
+    width: 80%;
+    position: relative;
+    top: calc( 56px + 100px );
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.drama-year{
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.drama-year h2{
+    border-bottom: 2.5px black solid;
+    font-weight: bold;
+}
+.dramas{
+    display: flex;
+    flex-direction: row;
+}
+
+.drama{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.drama p{
+    margin: 0px;
+}
+.group{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.group img{
+    height: 300px;
+    margin: 3px;
+}
+.flexslider{
+    width: 200px;
+    border: 0px !important;
+    margin: 0px !important;
+}
+
+
+/* footer */
+.Footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+    background-color: rgb(36, 36, 36);
+    z-index: 999;
+}
+
+.footer{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+.Logo img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer-Info{
+    width: 250px;
+    padding: 20px;
+}
+.footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-information img{
+    width: 10%;
+}
+.footer-information p{
+    margin: 10px;
+}
+.footer-information a, 
+.footer-information a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-footer{
+    width: 100%;
+    bottom: 3px;
+    color: rgb(215, 215, 215);
+    text-align: center;
+}
+.footer-footer p{
+    margin: 0px;
+}
+.last-revise-time{
+    padding: 1px;
+    color: rgb(129, 129, 129);
+}
+.footer-footer a, 
+.footer-footer a:hover{
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 440px) {
+    .Footer{
+        position: absolute;
+        bottom: 0px;
+    }
+}
