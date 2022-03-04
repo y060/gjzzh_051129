@@ -22,6 +22,7 @@
     position: relative;
     top: calc( 56px + 100px );
     margin: 0px 5% 100px 5%;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,22 +33,24 @@
     font-weight: bold;
 }
 .endorse{
+    margin: 10px 20px 10px 20px;
+
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
 }
 .endorse img,
 .endorse-flexslider{
     width: 80px;
+    margin-right: 15px;
     border-radius: 50%;
+    border: 1.5px rgb(219, 219, 219) solid;
 }
 .endorse p,
 .drama p{
     margin: 0px;
     font-size: 1.2rem;
 }
-
 
 .Dramas{
     width: 80%;
@@ -98,7 +101,6 @@
 .drama-flexslider{
     width: 200px;
 }
-
 
 .flexslider{
     border: 0px !important;
