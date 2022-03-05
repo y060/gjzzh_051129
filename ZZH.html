@@ -2,20 +2,26 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>張哲瀚｜all for 俊哲</title>
+    <title>龔俊｜all for 俊哲</title>
     <link rel="icon" href="JunZhe_Logo.png" type="image/icon type">
 
     <link rel="stylesheet" href="ZZH.css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
+    <!--AOS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <meta property="og:title" content="張哲瀚｜all for 俊哲" />
+    <!--FlexSlider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css" integrity="sha512-c7jR/kCnu09ZrAKsWXsI/x9HCO9kkpHw4Ftqhofqs+I2hNxalK5RGwo/IAhW3iqCHIw55wBSSCFlm8JP0sw2Zw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js" integrity="sha512-BmoWLYENsSaAfQfHszJM7cLiy9Ml4I0n1YtBQKfx8PaYpZ3SoTXfj3YiDNn0GAdveOCNbK8WqQQYaSb0CMjTHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <meta property="og:title" content="龔俊｜all for 俊哲" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content=" " />
     <meta property="og:image:type" content="image/png" />
@@ -26,6 +32,22 @@
 </head>
 <body>
     <script>
+        $(window).on('load', function() {
+
+            $(".flexslider").flexslider({
+                animation: "fade",  // "fade"：淡入淡出 "slide"：滑動
+                slideshowSpeed: 5000,
+                animationSpeed: 500,
+                touch: true,
+                controlNav: false,  // 下面圓點導覽列
+                // prev&next 文本
+                prevText: " ",
+                nextText: " ", 
+
+                // https://woocommerce.com/flexslider/
+            });
+
+        });
         AOS.init();
     </script>
 
@@ -40,8 +62,8 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="https://gjzzh051129.com/GJ">龔俊</a></li>
-                    <li class="nav-item"><a class="nav-link active" href=" ">張哲瀚</a></li>
+                    <li class="nav-item"><a class="nav-link active" href=" ">龔俊</a></li>
+                    <li class="nav-item"><a class="nav-link" href=" ">張哲瀚</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://gjzzh051129.com/JZCalendar">俊哲日曆</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://gjzzh051129.com/WenZhou/WOH">愛情的開始</a></li>
                     <li class="nav-item dropdown">
@@ -63,10 +85,66 @@
     </nav>
 
 
+    <!--內容-->
     <div class="Container">
         <div class="background-img"></div>
+        
+        <!--龔俊-->
+        <div class="ZZH">
+            <h1>張哲瀚</h1><p>龔俊老婆 浪浪釘的釘</p>
+            <div>
+                <img src=" ">
+                <p>
+                    生日：1991年5月11日（30歲）<br><br>
+                    江西新餘人，中國男演員、歌手。<br>
+                </p>
+            </div>
+        </div>
+
+        <!--演出作品-->
+        <div class="Dramas">
+            <h2>演出作品</h2>
+
+            <div class="drama-year">
+                <h2>20</h2>
+                <div class="dramas">
+
+                    <div class="drama">
+                        <p><b>《》</b> 飾 </p>
+                        <div class="group">
+                            <img src="./pic/ZZH" loading="lazy">
+                            <img src="./pic/ZZH" loading="lazy">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="drama-year">
+                <h2>20</h2>
+                <div class="dramas">
+
+                    <div class="drama">
+                        <p><b>《》</b> 飾 </p>
+                        <div class="group">
+                            <img src="./pic/ZZH">
+                            <div class="flexslider drama-flexslider">
+                                <ul class="slides">
+                                    <li><img src="./pic/ZZH" loading="lazy"></li>
+                                    <li><img src="./pic/ZZH" loading="lazy"></li>
+                                    <li><img src="./pic/ZZH" loading="lazy"></li>
+                                    <li><img src="./pic/ZZH" loading="lazy"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </div>
-    
+
 
     <!--置底-->
     <footer class="Footer">
