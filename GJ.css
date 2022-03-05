@@ -1,3 +1,17 @@
+@keyframes fadein{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+body{
+    background-image: url("./pic/GJ_background_img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 70% 40%;
+    background-size: cover;
+
+    animation: fadein 1.25s ease-in;
+}
+
 /* navbar */
 .navbar{
     z-index: 999;
@@ -16,12 +30,65 @@
 
 
 /* 內容 */
+.background-img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.2;
+    z-index: -999;
+}
+
+h1, h2, p{
+    color: white;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GJ{
+    width: 87%;
+    position: relative;
+    top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.GJ h1{
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+.GJ p{
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+.GJ div{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.GJ div img{
+    width: 400px;
+}
+.GJ div p{
+    width: 60%;
+    margin-left: 50px;
+}
 
 .Endorses{
-    width: 80%;
+    width: 85%;
     position: relative;
-    top: calc( 56px + 100px );
-    margin: 0px 5% 100px 5%;
+    margin-top: 200px;
 
     display: flex;
     flex-direction: row;
@@ -30,7 +97,10 @@
 .Endorses h2,
 .Dramas > h2{
     width: 100%;
+    padding: 0px 0px 7px 3px;
+    color: white;
     font-weight: bold;
+    border-bottom: 2px rgb(219, 219, 219) solid;
 }
 .endorse{
     margin: 10px 20px 10px 20px;
@@ -53,9 +123,9 @@
 }
 
 .Dramas{
-    width: 80%;
+    width: 85%;
     position: relative;
-    margin: 300px 5% 100px 5%;
+    margin-top: 100px;
 
     display: flex;
     flex-direction: row;
@@ -73,7 +143,8 @@
     justify-content: flex-start;
 }
 .drama-year h2{
-    border-bottom: 2.5px black solid;
+    border-bottom: 2.5px white solid;
+    color: white;
     font-weight: bold;
 }
 .dramas{
@@ -105,6 +176,7 @@
 .flexslider{
     border: 0px !important;
     margin: 0px !important;
+    background: none !important;
 }
 
 
