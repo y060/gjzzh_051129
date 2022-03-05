@@ -33,13 +33,20 @@
 <body>
     <script>
         $(window).on('load', function() {
+
             $(".flexslider").flexslider({
                 animation: "fade",  // "fade"：淡入淡出 "slide"：滑動
                 slideshowSpeed: 5000,
                 animationSpeed: 500,
                 touch: true,
-                controlNav: false  // 下面圓點導覽列
+                controlNav: false,  // 下面圓點導覽列
+                // prev&next 文本
+                prevText: " ",
+                nextText: " ", 
+
+                // https://woocommerce.com/flexslider/
             });
+
         });
         AOS.init();
     </script>

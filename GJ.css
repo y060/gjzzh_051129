@@ -178,6 +178,9 @@ h1, h2, p{
     margin: 0px !important;
     background: none !important;
 }
+.flex-direction-nav a{
+    overflow: visible !important;
+}
 
 
 /* footer */
