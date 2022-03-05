@@ -1,3 +1,18 @@
+@keyframes fadein{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+body{
+    background-image: url("./pic/ZZH_background_img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 70% 40%;
+    background-size: cover;
+
+    animation: fadein 1.25s ease-in;
+}
+
+
 /* navbar */
 .navbar{
     z-index: 999;
@@ -12,6 +27,19 @@
 }
 .navbar-toggler:focus{
     outline: 0;
+}
+
+
+/* 內容 */
+.background-img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.2;
+    z-index: -999;
 }
 
 
