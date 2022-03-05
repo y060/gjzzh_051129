@@ -112,6 +112,9 @@ body{
         height: 300px;
         border-radius: 0px 0px 30px 30px;
     }
+    .event{
+        top: 30px;
+    }
 }
 
 
@@ -184,4 +187,11 @@ body{
 .footer-footer a:hover{
     color: rgb(215, 215, 215);
     text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .Footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
