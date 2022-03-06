@@ -37,7 +37,7 @@
     text-decoration: none;
 }
 .content a:hover{
-    color: rgb(70, 70, 70);
+    color: black;
     text-decoration: none;
 }
 
@@ -92,13 +92,17 @@
     margin: 2px 0px 10px 8px;
 }
 
+.declaration{
+    padding-left: 5%;
+}
+
 
 /* footer */
 .Footer{
     position: relative;
     width: 100%;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 200px;
 
     background-color: rgb(36, 36, 36);
     z-index: 999;
