@@ -252,7 +252,23 @@ var GJ_EventList = [
         <br>\
         謝謝阿絮@張哲瀚瘋子 給予的陽光，謝謝阿湘@周也yeah 陪伴的溫暖，謝謝成嶺@孫浠倫 帶來的快樂，謝謝妹夫@馬聞遠 出現在我們的世界。<br>\
         感恩所有為這部劇付出心血的演員老師和工作人員，以及喜歡這部劇的你們。<br>\
-        天涯路遠，我們不說再見。#山河令全員告別#" }
+        天涯路遠，我們不說再見。#山河令全員告別#" },
+    {
+        title: "《快樂大本營》播放",
+        start: "2021-04-03" },
+    {
+        title: "《創造營2021》錄製", 
+        start: "2021-04-03",
+        end: "2021-04-05",
+        location: "📍 海口",
+        description:
+        "．龔老師雙手無名指戒指。<br>\
+        ．「和我最匹配的人，那就只能是張老師了。」（後期手動「張哲瀚老師」）<br>\
+        ．「昨天收了小紅包，有位同學（吳宇恒）要叮囑打call」<br>\
+        ．採訪：「沒事張老師，不發紅包我也會打call的。」" },
+    {
+        title: "Tomford 03Lark 雙人單鏈",
+        start: "2021-04-08" }
 ];
 
 var ZZH_EventList = [
@@ -447,6 +463,13 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 點擊
         eventClick: function(Ev){
+            //活動日期
+            document.getElementById("event-date").innerHTML = moment(Ev.event.start).format("YYYY-MM-DD");
+            if( Ev.event.end != null ){
+                document.getElementById("event-date").innerHTML = moment(Ev.event.start).format("YYYY-MM-DD") + " ~ " + moment(Ev.event.end).format("YYYY-MM-DD");
+            }
+            
+            //活動標題
             document.getElementById("event-title").innerHTML = Ev.event.title;
             console.log(Ev.event.title);
 

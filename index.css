@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
-
 @keyframes fadein{
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -66,7 +65,8 @@ body{
 }
 .title p{
     padding: 0px 10px 0px 20px;
-    font: 1.25rem 'cwTeXFangSong', sans-serif;
+    font-size: 1.25rem;
+    font-family: 'cwTeXFangSong', sans-serif;
     color: white;
 }
 
